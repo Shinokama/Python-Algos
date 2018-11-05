@@ -18,7 +18,7 @@ else:
 def reflect(number, offset):
     digit = len(number) - offset
     if digit == 0:
-        return number[digit]
+        return number[digit]  # навожу красоту в прошлом ДЗ, прошу проигнорировать.
     if digit > 0:
         return f'{number[digit]}{reflect(number, offset + 1)}'
 
